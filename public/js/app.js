@@ -1,3 +1,1 @@
-var app = angular.module('APPNAME', ['CTRLS']);
-
-app.
+var app = angular.module('APP', ['CTRLS']);
