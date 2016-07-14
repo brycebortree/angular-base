@@ -1,5 +1,4 @@
-angular.module('CTRLS', ['SERVICES'])
+var app = angular.module('CTRLS', ['SERVICES'])
 
-.controller('CTRLS', function($scope){
-  $scope.in = "yes";
+app.controller('HomeCtrl', function($scope){
 })
