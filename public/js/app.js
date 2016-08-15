@@ -16,5 +16,5 @@ app.config(['$stateProvider',
     controller: 'HomeCtrl'
   })
 
-  $locationProvider.html5Mode(false);
+  $locationProvider.html5Mode(true);
 }]);
